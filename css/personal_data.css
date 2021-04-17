@@ -1,0 +1,32 @@
+.div-personal-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.div-personal-data h2 {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-personal-data img {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-personal-data ul {
+  list-style: none;
+}
+
+.div-personal-data ul li {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-position-personal-data {
+  width: 500px;
+}

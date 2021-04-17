@@ -1,0 +1,33 @@
+.div-school-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.div-school-data h2 {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-school-data img {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-school-data ul {
+  list-style: none;
+}
+
+.div-school-data ul li {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-position-school-data {
+  height: 150px;
+  width: 400px;
+}

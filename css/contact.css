@@ -1,0 +1,46 @@
+.div-form {
+  margin: auto;
+  padding: 32px;
+  display: flex;
+  background-color: grey;
+  border: 2px solid rgba(238, 255, 0, 0.459);
+}
+
+.inputs-form {
+  width: 200px;
+  display: flex;
+  margin: 16px;
+  color: black;
+  border: 2px solid rgba(238, 255, 0, 0.459);
+}
+
+.option-form {
+  color: black;
+}
+
+.div-contact-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.div-position-contact-data {
+  height: 150px;
+  width: 450px;
+}
+
+#submit-button {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  color: black;
+  border: 2px solid rgba(238, 255, 0, 0.459);
+}
+
+#submit-button:hover {
+  background-color: gray;
+}
+

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s ease;
+  font-family: 'arial';
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/wallpaper.jpg');
+}
+
+.div-title-home-page {
+  margin: auto;
+  width: 60%;
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-image-home-page {
+  margin: auto;
+  width: 325px;
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+}
+
+footer {
+  margin: auto;
+  width: 60%;
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}

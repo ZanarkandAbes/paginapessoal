@@ -1,0 +1,33 @@
+.div-professional-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.div-professional-data h2 {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-professional-data img {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-professional-data ul {
+  list-style: none;
+}
+
+.div-professional-data ul li {
+  border: 2px solid rgba(238, 255, 0, 0.459);
+  padding: 10px;
+  background-color: grey;
+}
+
+.div-position-professional-data {
+  height: 150px;
+  width: 450px;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "pagina-pessoal",
+  "version": "1.0.0",
+  "description": "minha pagina pessoal",
+  "main": "index.js",
+  "scripts": {
+  	"start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pessoal"
+  ],
+  "author": "Israel Fernandes Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

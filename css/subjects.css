@@ -1,0 +1,29 @@
+.div-table {
+  margin: auto;
+  padding: 32px;
+  display: flex;
+  background-color: grey;
+  border: 2px solid rgba(238, 255, 0, 0.459);
+}
+
+.table-line-odd {
+  background-color: green;
+  border: 2px solid black;
+}
+
+.table-line-pair {
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.div-subjects-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.div-position-subjects-data {
+  height: 150px;
+  width: 450px;
+}

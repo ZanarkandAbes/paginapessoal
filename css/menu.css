@@ -1,0 +1,50 @@
+body {
+  font-family: arial;
+  font-size: 18px;
+}
+
+.menu {
+  list-style: none;
+  border: 1px solid rgba(238, 255, 0, 0.459);
+  background-color: grey;
+  float: right;
+}
+
+.menu li {
+  position: relative;
+  float: right;
+  border-right: 1px solid rgba(238, 255, 0, 0.459);
+  background-color: grey;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.menu li a:hover {
+  background: white;
+  color: #fff;
+  text-shadow: 0px 0px 5px gray;
+}
+
+.menu li ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: gray;
+  display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+.menu li ul li {
+  border: 1px solid rgba(238, 255, 0, 0.459);
+  display: block;
+  width: 150px;
+}
